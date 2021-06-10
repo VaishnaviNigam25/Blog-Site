@@ -1,0 +1,122 @@
+body{
+    margin:0;
+    padding:0;
+    color:seashell;
+    background: #000428;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+#title:hover{
+   color: orangered;
+}
+nav{
+   display: inline-block;
+    background-color: orangered;
+    
+    width: 100vw;
+    height: 5vh;
+    position: fixed;
+    top: 5px;
+    text-align: center;
+}
+nav a{
+    padding: 20px;
+    margin : 50px;
+}
+header{
+    text-align: center;
+    font-family:fantasy ;
+   letter-spacing: .1rem;
+   font-size: 80pxr;
+   height: 100vh;
+   background: #ADA996;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+header img {
+   width: 500px;
+   height: 500px;
+}
+
+article{
+    width:70%;
+    display: inline-block;
+    padding: 15px;
+    margin:  20px;
+    font-size: 1.4rem;
+    box-sizing: border-box;
+   
+}
+aside{
+    position: relative;
+   left: 50px ;
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+    border-top: 8px solid orangered;
+    font-family: cursive;
+    font-size: .8rem; 
+    top:70px;
+  
+    
+}
+#contact-form input , textarea{
+    /* font-size: .8rem; */
+    margin: 10px 0px 10px 0px;
+    padding: 10px;
+    color: white;
+    background-color: rgb(247, 224, 172);
+}
+#contact-form button{
+    font-size: 10px;
+    padding: 10px;
+    margin: 10px 0px 10px 0px;
+    border-radius: 15px;
+    color: rgb(252, 153, 5);
+    background-color: black;
+}
+#recent{
+    border-top:8px solid orangered;
+    margin-top:30px;
+    padding: 15px;
+    line-height: 2.5rem;
+   
+}
+a{
+    color:orangered;
+}
+#social{
+    position: sticky;
+    width:5%;
+ display: inline-block;
+ vertical-align: top;
+ background-color: rgb(7, 7, 7);
+top: 100px;
+border: 4px groove orangered;
+ border-radius: 50px;
+
+ 
+}
+#social img{
+    /* padding:20px ; */
+    margin-top:20px;
+    margin-bottom:20px;
+    padding :10px;
+    display: block;
+    width: 50px;
+    height: 50px;
+    
+}
+footer{
+    background-color: black;
+    color: orangered;
+    text-align: center;
+    height:30px;
+    padding-top: 5px;
+}
